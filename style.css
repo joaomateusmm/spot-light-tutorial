@@ -100,9 +100,9 @@ body {
   filter: blur(50px);
   background: linear-gradient(
     337deg,
-    rgba(14, 180, 55, 0.7) 10%,
-    rgba(255, 59, 59, 0.7) 50%,
-    rgba(0, 247, 255, 0.8) 90%
+    rgba(109, 111, 224, 0.8) 10%,
+    rgba(170, 82, 182, 0.7) 50%,
+    rgb(209, 159, 89) 90%
   );
   mask: radial-gradient(circle 400px at center, black 0%, transparent 95%);
   opacity: 0;
@@ -112,18 +112,18 @@ body {
 .spotlight-card-2::before {
   background: linear-gradient(
     337deg,
-    rgba(14, 180, 55, 0.7) 10%,
+    rgba(255, 0, 0, 0.7) 10%,
     rgba(255, 59, 59, 0.7) 50%,
-    rgba(0, 247, 255, 0.8) 90%
+    rgba(255, 136, 0, 0.8) 90%
   );
 }
 
 .spotlight-card-3::before {
   background: linear-gradient(
     337deg,
-    rgba(14, 180, 55, 0.7) 10%,
-    rgba(255, 59, 59, 0.7) 50%,
-    rgba(0, 247, 255, 0.8) 90%
+    rgba(255, 102, 0, 0.7) 10%,
+    rgba(255, 121, 59, 0.7) 50%,
+    rgba(255, 208, 0, 0.9) 90%
   );
 }
 
